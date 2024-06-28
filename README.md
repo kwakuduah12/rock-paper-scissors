@@ -63,10 +63,11 @@ To run this game on your local machine, follow these steps:
 The project consists of the following files:
 rock-paper-scissors/
 │
-├── index.html # The main HTML file containing the game layout
-├── styles.css # The CSS file for styling the game
-├── script.js # The JavaScript file containing game logic
-└── README.md # The README file you are reading
+├── index.html       # The main HTML file containing the game layout
+├── styles.css       # The CSS file for styling the game
+├── script.js        # The JavaScript file containing game logic
+└── README.md        # The README file you are reading
+
 
 
 ## Customization
