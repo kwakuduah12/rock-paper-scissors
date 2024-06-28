@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="app">
+    <section class="player">
+        <div class="name">
+            <h2>computer</h2>
+        </div>
+        <div class="option">
+            <i id="computer-choice" class="fa-regular fa-hand-back-fist"></i>
+        </div>
+    </section>
+    <section id="score-board">
+        <div id="user-score">
+            0
+        </div>
+        -
+        <div id="computer-score">
+            0
+        </div>
+    </section>
+    <button id="play-again">play again</button>
+    <section class="player">
+        <p id="text">make your decision!</p>
+        <div class="options">
+            <div class="option">
+                <i class="fa-regular fa-hand"></i>
+            </div>
+            <div class="option">
+                <i class="fa-regular fa-hand-back-fist"></i>
+            </div>
+            <div class="option">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </div>
+        </div>
+        <div class="name">
+            <h2>you</h2>
+        </div>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
